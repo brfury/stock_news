@@ -2,12 +2,6 @@ import pandas
 import json
 import requests
 
-# chave api detalhe de acões
-AlphaKey = "YL567FGV7666QJTV"
-
-# chave api de notícia
-NewsKey = "fca83ec21d53468cbe838de4e6fd055a"
-
 
 class StockNews:
     def __init__(self, stock, alpha_key, news_key):
